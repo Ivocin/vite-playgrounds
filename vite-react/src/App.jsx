@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
+import { DatePicker } from 'antd'
 import logo from './logo.svg'
 import './App.css'
+import 'antd/dist/antd.less'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -9,6 +11,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <DatePicker />
         <p>Hello Vite + React!</p>
         <p>
           <button onClick={() => setCount((count) => count + 1)}>
