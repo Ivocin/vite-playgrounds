@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import { DatePicker, Menu } from "antd";
-import logo from "./logo.svg";
+import { DatePicker, Button } from "antd";
+import logo from "~/assets/logo.svg";
 import "./App.css";
 
 function App() {
@@ -13,9 +13,9 @@ function App() {
         <DatePicker />
         <p>Hello Vite + React!</p>
         <p>
-          <button onClick={() => setCount((count) => count + 1)}>
+          <Button onClick={() => setCount((count) => count + 1)}>
             count is: {count}
-          </button>
+          </Button>
         </p>
         <p>
           <a
