@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { DatePicker, Button } from "antd";
 import logo from "~/assets/logo.svg";
-import "./App.css";
+import "./index.css";
 
 function App() {
   const [count, setCount] = useState(0);
