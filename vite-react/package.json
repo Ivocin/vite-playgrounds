@@ -7,6 +7,7 @@
     "serve": "vite preview"
   },
   "dependencies": {
+    "@ahooksjs/use-request": "^2.8.3",
     "antd": "^4.12.3",
     "react": "^17.0.0",
     "react-dom": "^17.0.0",
