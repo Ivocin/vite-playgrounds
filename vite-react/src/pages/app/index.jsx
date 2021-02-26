@@ -1,10 +1,10 @@
-import React, { useState } from "react";
-import { DatePicker, Button } from "antd";
-import logo from "~/assets/logo.svg";
-import "./index.css";
+import React, { useState } from 'react'
+import { DatePicker, Button } from 'antd'
+import logo from '~/assets/logo.svg'
+import './index.css'
 
 function App() {
-  const [count, setCount] = useState(0);
+  const [count, setCount] = useState(0)
 
   return (
     <div className="App">
@@ -26,7 +26,7 @@ function App() {
           >
             Learn React
           </a>
-          {" | "}
+          {' | '}
           <a
             className="App-link"
             href="https://vitejs.dev/guide/features.html"
@@ -38,7 +38,7 @@ function App() {
         </p>
       </header>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

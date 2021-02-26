@@ -1,6 +1,6 @@
-import React from "react";
-import { Menu } from "antd";
-import { Link } from "react-router-dom";
+import React from 'react'
+import { Menu } from 'antd'
+import { Link } from 'react-router-dom'
 
 export default function Layout() {
   return (
@@ -12,5 +12,5 @@ export default function Layout() {
         <Link to="/app">App</Link>
       </Menu.Item>
     </Menu>
-  );
+  )
 }

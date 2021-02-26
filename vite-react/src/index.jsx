@@ -1,9 +1,9 @@
-import React from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import Layout from "./Layout";
-import App from "~/pages/app/index";
-import User from "~/pages/user/index";
-import "antd/dist/antd.less";
+import React from 'react'
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
+import Layout from './Layout'
+import App from '~/pages/app/index'
+import User from '~/pages/user/index'
+import 'antd/dist/antd.less'
 
 export default function Index() {
   return (
@@ -18,5 +18,5 @@ export default function Index() {
         </Route>
       </Switch>
     </Router>
-  );
+  )
 }
